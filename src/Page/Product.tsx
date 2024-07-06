@@ -5,15 +5,18 @@ import KRK from "../assets/KRK.svg";
 import UA from "../assets/ua.svg";
 import Audio from "../assets/audio-technica.svg";
 import MAudio from "../assets/m-audio.svg";
-
+import Wave from "../assets/wave1.svg";
 import Marquee from "react-fast-marquee";
 export function Product() {
   return (
-    <div className="py-10 min-h-screen">
-      <div className="h-screen  w-full">
+    <div className="py-10 min-h-[115vh]">
+      <div className="h-screen relative w-full">
+        <div className=" absolute w-screen bottom-[-50px] left-0 right-0 overflow-hidden ">
+          <img src={Wave} className="w-screen" />
+        </div>
         <LayoutGrid cards={cards} />
-        <div className="w-[100%] py-2 bg-[#E7F0DC]">
-          <div className=" w-[80%] py-5   mx-auto">
+        <div className="w-[100%] py-2  bg-[#EEEDEB]">
+          <div className=" w-[80%] py-5 pt-[50px]  mx-auto">
             <h2 className=" text-center text-[26px]   py-5 font-semibold">
               Lorem Ipsum has been the industry's standard dummy text{" "}
             </h2>

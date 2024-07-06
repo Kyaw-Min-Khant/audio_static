@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { LiaStarSolid } from "react-icons/lia";
 import { motion } from "framer-motion";
+import { FaTiktok } from "react-icons/fa";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";

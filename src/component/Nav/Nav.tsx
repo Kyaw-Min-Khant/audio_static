@@ -6,8 +6,8 @@ const Nav = () => {
       <h2 className=" text-3xl font-sans font-semibold">KR</h2>
       <div className=" flex justify-between gap-x-10 items-center">
         <h2 className={NavLinkText}>Home</h2>
-        <h2 className={NavLinkText}>About Us</h2>
         <h2 className={NavLinkText}>Products</h2>
+        <h2 className={NavLinkText}>Abouts</h2>
         <h2 className={NavLinkText}>Contact Us</h2>
       </div>
     </div>

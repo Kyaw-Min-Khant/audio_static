@@ -7,7 +7,7 @@ import Contactus from "./Page/Contactus";
 
 const App = () => {
   return (
-    <div className=" relative">
+    <div className=" relative overflow-hidden">
       <Nav />
       <Home />
       <Product />

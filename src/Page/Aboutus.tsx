@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
-
 import { Animation, staggerContainer } from "../utils/animation";
+import Wave from "../assets/wave.svg";
 const Aboutus = () => {
   return (
-    <section className=" flex justify-around mt-[70px] items-center container mx-auto min-h-screen">
+    <section className="flex relative pt-10 justify-around mt-[70px] items-center  min-h-[130vh]">
+      <div className=" absolute w-screen top-[100px] left-0 overflow-hidden right-0">
+        <img src={Wave} className=" w-screen" />
+      </div>
       <motion.div
         initial="hidden"
         whileInView="show"
